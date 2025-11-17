@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memória Afro-Brasileira: Vozes e Legados</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Nosso CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- === Navbar === -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-sunrise-fill"></i>
+                Vozes e Legados
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cultura.html">Cultura</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- === Container Principal (PÁGINA HOME) === -->
+    <main class="container my-5">
+        
+        <!-- Hero Section -->
+        <header class="hero text-center">
+            <div class="container p-5 rounded-3">
+                <h1 class="display-4 fw-bold text-white">Vozes da Resistência</h1>
+                <p class="lead fs-4 col-md-8 mx-auto text-white-50">Explorando a riqueza da história e cultura afro-brasileira, da luta à celebração.</p>
+            </div>
+        </header>
+
+        <!-- Sobre o Projeto -->
+        <section class="my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4">
+                    <h2>Preservar a <span class="text-accent">Memória</span></h2>
+                    <p class="lead">Este espaço é dedicado a registrar, celebrar e disseminar a profunda contribuição africana e afro-brasileira para a formação do Brasil.</p>
+                    <p>Inspirado na Lei 10.639/2003, que tornou obrigatório o ensino da história e cultura afro-brasileira nas escolas, e em iniciativas como o <a href="https://museuafrodigital.ufba.br/" target="_blank">Museu Afro Digital</a>, nosso objetivo é ser uma ferramenta de educação e sensibilização.</p>
+                    <p>Acreditamos que conhecer o passado é fundamental para construir um futuro antirracista e mais justo para todos.</p>
+                    <a href="historia.html" class="btn btn-custom">Nossa História <i class="bi bi-arrow-right-short"></i></a>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="img/01.jpg" 
+                         class="img-fluid rounded-3 shadow" 
+                         alt="Imagem representando um quilombo ou comunidade afro-brasileira">
+                </div>
+            </div>
+        </section>
+
+        <!-- Navegação em Cards -->
+        <section class="my-5">
+            <h2 class="text-center mb-4">Explore Nossas Seções</h2>
+            <div class="row">
+                <!-- Card História -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/zumbidospalmares.jpg" class="card-img-top" alt="Ilustração de Zumbi dos Palmares">
+                        <div class="card-body">
+                            <h5 class="card-title">Pilares da História</h5>
+                            <p class="card-text">Dos navios negreiros aos quilombos, da abolição à luta por direitos civis. Conheça as figuras e os eventos que moldaram a resistência negra no Brasil.</p>
+                            <a href="historia.html" class="btn btn-link text-decoration-none">Saiba mais <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Cultura -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <img src="img/capoeira.jpg" class="card-img-top" alt="Roda de Capoeira">
+                        <div class="card-body">
+                            <h5 class="card-title">Expressões Culturais</h5>
+                            <p class="card-text">Música, dança, culinária e religiosidade. Descubra a vibrante tapeçaria cultural que enriquece o Brasil com seus ritmos, sabores e saberes ancestrais.</p>
+                            <a href="cultura.html" class="btn btn-link text-decoration-none">Descubra <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- === Footer === -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Sobre -->
+                <div class="col-md-5 mb-4">
+                    <h5><i class="bi bi-sunrise-fill"></i> Vozes e Legados</h5>
+                    <p>Um projeto autoral inspirado na Lei 10.639/2003 e no Museu Afro Digital, dedicado à valorização da memória e cultura afro-brasileira.</p>
+                    <p class="small">&copy; 2024. Todos os direitos reservados.</p>
+                </div>
+                <!-- Links Rápidos -->
+                <div class="col-md-3 offset-md-1 mb-4">
+                    <h5>Navegue</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-decoration-none text-white-50">Home</a></li>
+                        <li><a href="historia.html" class="text-decoration-none text-white-50">História</a></li>
+                        <li><a href="cultura.html" class="text-decoration-none text-white-50">Cultura</a></li>
+                    </ul>
+                </div>
+                <!-- Redes Sociais -->
+                <div class="col-md-3 mb-4">
+                    <h5>Conecte-se</h5>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Nosso Script -->
+    <script src="js\script.js"></script>
+
+</body>
+</html>

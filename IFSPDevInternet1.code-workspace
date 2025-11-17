@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "IFSPDevInternet1",
+			"path": "../ATV2/IFSPDevInternet1"
+		},
+		{
+			"name": "ATV2",
+			"path": "../ATV2"
+		}
+	],
+	"settings": {}
+}

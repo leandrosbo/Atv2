@@ -1,0 +1,146 @@
+
+    Paleta de Cores (Inspirada em tons terrosos e cores Pan-Africanas)
+    root {
+        --cor-preto-profundo #1a1a1a;
+        --cor-creme #FDF5E6;
+        --cor-marrom-escuro #5C4033;  Para o navbar e footer 
+        --cor-marrom-claro #8B4513;
+        --cor-vermelho-acento #E74C3C;
+        --cor-verde-acento #2ECC71;
+        --cor-amarelo-acento #F1C40F;
+    }
+
+
+root {
+    --cor-fundo #FDF5E6;
+    --cor-texto #1a1a1a;
+    --cor-primaria #8B4513;  Marrom Saddle 
+    --cor-secundaria #5C4033;  Marrom escuro 
+    --cor-acento-vermelho #E74C3C;
+    --cor-acento-amarelo #F1C40F;
+    --cor-fundo-escuro #1a1a1a;
+}
+
+body {
+    font-family 'Inter', sans-serif;
+    background-color var(--cor-fundo);
+    color var(--cor-texto);
+     Adiciona um padding-top para compensar o navbar fixo, se necessário 
+     padding-top 70px;  
+}
+
+ --- Navbar --- 
+.navbar {
+    background-color var(--cor-primaria);
+    box-shadow 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight 900;
+    color var(--cor-fundo) !important;
+}
+
+.nav-link {
+    font-weight 700;
+    color var(--cor-fundo) !important;
+    transition color 0.3s ease;
+}
+
+.nav-linkhover, .nav-link.active {
+    color var(--cor-acento-amarelo) !important;
+}
+
+ --- Estilos Gerais --- 
+ Removemos o .page-section pois não é mais necessário 
+
+h1, h2, h3 {
+    font-weight 900;
+    color var(--cor-secundaria);
+}
+
+.text-accent {
+    color var(--cor-acento-vermelho);
+}
+
+.btn-custom {
+    background-color var(--cor-acento-vermelho);
+    border-color var(--cor-acento-vermelho);
+    color white;
+    font-weight 700;
+    transition all 0.3s ease;
+}
+
+.btn-customhover {
+    background-color #c0392b;  Vermelho mais escuro 
+    border-color #c0392b;
+    color white;
+    transform translateY(-2px);
+    box-shadow 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ --- Seção Hero (Home) --- 
+.hero {
+    background-color var(--cor-secundaria);
+    color var(--cor-fundo);
+    border-radius 15px;
+    padding 4rem 2rem;
+    margin-bottom 2rem;
+}
+
+.hero img {
+    border-radius 10px;
+}
+
+ --- Cards --- 
+.card {
+    border none;
+    border-radius 15px;
+    box-shadow 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition transform 0.3s ease, box-shadow 0.3s ease;
+    height 100%;  Garante que os cards na mesma linha tenham a mesma altura 
+}
+
+.cardhover {
+    transform translateY(-5px);
+    box-shadow 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    border-top-left-radius 15px;
+    border-top-right-radius 15px;
+    object-fit cover;
+    height 200px;
+}
+
+.card-title {
+    color var(--cor-primaria);
+    font-weight 700;
+}
+
+ --- Footer --- 
+.footer {
+    background-color var(--cor-fundo-escuro);
+    color var(--cor-fundo);
+    padding 3rem 0;
+    margin-top 4rem;
+}
+
+.footer h5 {
+    color var(--cor-acento-amarelo);
+    font-weight 700;
+}
+
+.footer p {
+    color #ccc;
+}
+
+.footer .social-links a {
+    color var(--cor-fundo);
+    font-size 1.5rem;
+    margin 0 0.5rem;
+    transition color 0.3s ease;
+}
+
+.footer .social-links ahover {
+    color var(--cor-acento-amarelo);
+}
